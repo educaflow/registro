@@ -1,0 +1,92 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< com.fpmislata.secretariavirtual:registro >--------------
+[INFO] Building registro 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:4.0.4:run (default-cli) > test-compile @ registro >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:resources (default-resources) @ registro ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 2 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.14.1:compile (default-compile) @ registro ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 13 source files with javac [debug parameters release 21] to target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:testResources (default-testResources) @ registro ---
+[INFO] skip non existing resourceDirectory /home/cesar/Mislata/eduflow/registro/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.14.1:testCompile (default-testCompile) @ registro ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug parameters release 21] to target/test-classes
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:4.0.4:run (default-cli) < test-compile @ registro <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:4.0.4:run (default-cli) @ registro ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.4)
+
+2026-03-26T10:46:38.313+01:00  INFO 38258 --- [registro] [           main] c.f.s.registro.RegistroApplication       : Starting RegistroApplication using Java 21.0.6 with PID 38258 (/home/cesar/Mislata/eduflow/registro/target/classes started by cesar in /home/cesar/Mislata/eduflow/registro)
+2026-03-26T10:46:38.315+01:00  INFO 38258 --- [registro] [           main] c.f.s.registro.RegistroApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-03-26T10:46:38.631+01:00  INFO 38258 --- [registro] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-26T10:46:38.659+01:00  INFO 38258 --- [registro] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 2 JPA repository interfaces.
+2026-03-26T10:46:38.937+01:00  INFO 38258 --- [registro] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-03-26T10:46:38.946+01:00  INFO 38258 --- [registro] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-26T10:46:38.946+01:00  INFO 38258 --- [registro] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-26T10:46:38.969+01:00  INFO 38258 --- [registro] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 624 ms
+2026-03-26T10:46:39.056+01:00  INFO 38258 --- [registro] [           main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-26T10:46:39.082+01:00  INFO 38258 --- [registro] [           main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-03-26T10:46:39.320+01:00  INFO 38258 --- [registro] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-26T10:46:39.338+01:00  INFO 38258 --- [registro] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-26T10:46:39.391+01:00  INFO 38258 --- [registro] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@302da330
+2026-03-26T10:46:39.392+01:00  INFO 38258 --- [registro] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-26T10:46:39.417+01:00  WARN 38258 --- [registro] [           main] org.hibernate.orm.core                   : HHH000511: The 12.22.0 version for [org.hibernate.dialect.PostgreSQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 13.0.0. Check the community dialects project for available legacy versions.
+2026-03-26T10:46:39.429+01:00  INFO 38258 --- [registro] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/educaflow]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 12.22
+	Default catalog/schema: educaflow/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-26T10:46:39.865+01:00  INFO 38258 --- [registro] [           main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-26T10:46:39.869+01:00  INFO 38258 --- [registro] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-26T10:46:39.913+01:00  INFO 38258 --- [registro] [           main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-26T10:46:40.044+01:00  WARN 38258 --- [registro] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-26T10:46:40.212+01:00  INFO 38258 --- [registro] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-03-26T10:46:40.216+01:00  INFO 38258 --- [registro] [           main] c.f.s.registro.RegistroApplication       : Started RegistroApplication in 2.115 seconds (process running for 2.311)
+2026-03-26T10:49:20.071+01:00  INFO 38258 --- [registro] [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-26T10:49:20.071+01:00  INFO 38258 --- [registro] [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-26T10:49:20.072+01:00  INFO 38258 --- [registro] [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-03-26T10:50:56.702+01:00  INFO 38258 --- [registro] [ionShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-26T10:50:56.704+01:00  INFO 38258 --- [registro] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-26T10:50:56.706+01:00  INFO 38258 --- [registro] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-26T10:50:56.707+01:00  INFO 38258 --- [registro] [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-26T10:50:56.709+01:00  INFO 38258 --- [registro] [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  04:20 min
+[INFO] Finished at: 2026-03-26T10:50:56+01:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:4.0.4:run (default-cli) on project registro: Process terminated with exit code: 143 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

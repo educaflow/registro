@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "skills": {
+    "bootstrap": {
+      "source": "mindrally/skills",
+      "sourceType": "github",
+      "computedHash": "99c121c1791cbbadcb16b0ff4d3928c08d402e999a6611d2cbece613d98e7e97"
+    },
+    "java-springboot": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "computedHash": "f1b9c6b1277178fc33e5a612761c1cd1cf6ab5f946d05d69d52026d142c0a0c1"
+    },
+    "spring-data-jpa": {
+      "source": "giuseppe-trisciuoglio/developer-kit",
+      "sourceType": "github",
+      "computedHash": "be931b019eabb76dcdb72620f982997e6e6b4b942e794a797c1afe02e59aa592"
+    },
+    "thymeleaf": {
+      "source": "claude-dev-suite/claude-dev-suite",
+      "sourceType": "github",
+      "computedHash": "76e73bf259ff97222704ca69c3edba095484fc210e43ea930de32869b615bbdd"
+    }
+  }
+}
